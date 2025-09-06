@@ -1,0 +1,261 @@
+HastaNo
+TedaviSuresi_num
+num__Yas
+num__UygulamaSuresi_min
+cat__Cinsiyet_Erkek
+cat__Cinsiyet_Kadın
+cat__Cinsiyet_None
+cat__KanGrubu_0 Rh+
+cat__KanGrubu_0 Rh-
+cat__KanGrubu_A Rh+
+cat__KanGrubu_A Rh-
+cat__KanGrubu_AB Rh+
+cat__KanGrubu_AB Rh-
+cat__KanGrubu_B Rh+
+cat__KanGrubu_B Rh-
+cat__KanGrubu_None
+cat__Uyruk_Arnavutluk
+cat__Uyruk_Azerbaycan
+cat__Uyruk_Libya
+cat__Uyruk_Tokelau
+cat__Uyruk_Türkiye
+cat__Bolum_Fiziksel Tıp Ve Rehabilitasyon,Solunum Merkezi
+cat__Bolum_Genel Cerrahi
+cat__Bolum_Göğüs Hastalıkları
+cat__Bolum_Kalp Ve Damar Cerrahisi
+cat__Bolum_Kardiyoloji
+cat__Bolum_Nöroloji
+cat__Bolum_Ortopedi Ve Travmatoloji
+cat__Bolum_Tıbbi Onkoloji
+cat__Bolum_İç Hastalıkları
+cat__Bolum_None
+cat__TedaviAdi_1. Parmak CMC eklem ağrısı
+cat__TedaviAdi_1. parmak bağ ve volar plak yaralanması
+cat__TedaviAdi_5. metatars fissürü+bağ lezyonu
+cat__TedaviAdi_Aksiller web sendromu+kontraktür
+cat__TedaviAdi_Algonörodistrofi Sol Ayak
+cat__TedaviAdi_Algonörodistrofi Sol ayak
+cat__TedaviAdi_Algonörodistrofi Sol el
+cat__TedaviAdi_Alt ekstremite atrofi+yürüme
+cat__TedaviAdi_Alt ekstremite atrofi-
+cat__TedaviAdi_Alt ekstremite atrofi-Bilateral
+cat__TedaviAdi_Artroskopi Diz Tam yükle mobilizasyon
+cat__TedaviAdi_Ayak Bileği
+cat__TedaviAdi_Ayak bileği Kontraktürü
+cat__TedaviAdi_Ayak bileği Post OP
+cat__TedaviAdi_Ayak bileği distorsiyonu
+cat__TedaviAdi_Ayak bileği distorsiyonu-1
+cat__TedaviAdi_Aşil Kısalığı
+cat__TedaviAdi_Aşil Rüptürü Op 
+cat__TedaviAdi_Aşil Rüptürü Rehabilitasyonu
+cat__TedaviAdi_Aşil Rüptürü-1
+cat__TedaviAdi_Aşil Tendiniti sol-1
+cat__TedaviAdi_Baker kisti rüptürü
+cat__TedaviAdi_Bel
+cat__TedaviAdi_Bel FTR
+cat__TedaviAdi_Beyin kanaması+atrofi
+cat__TedaviAdi_Bialetarl Diz İmplantı-Erken rehabilitasyon
+cat__TedaviAdi_Bilarteral implant-Erken rehabilitasyon
+cat__TedaviAdi_Bilateral Diz Eklem İmplantı
+cat__TedaviAdi_Boyun
+cat__TedaviAdi_Boyun-Düşük kol
+cat__TedaviAdi_Boyun-Sırt ağrısı
+cat__TedaviAdi_Boyun-Trapezz
+cat__TedaviAdi_Deneme 
+cat__TedaviAdi_Dirsek eklem çıkığı+Kontraktürü
+cat__TedaviAdi_Diz Menisküs Erken mobilizasyon
+cat__TedaviAdi_Diz Op-Erken Rehabilitasyon
+cat__TedaviAdi_Diz ağrısı
+cat__TedaviAdi_Dorsalji
+cat__TedaviAdi_Dorsalji +Servikal Myelomalazi
+cat__TedaviAdi_Dorsalji -Boyun+trapez
+cat__TedaviAdi_Dorsalji -Boyun+trapez+skapular
+cat__TedaviAdi_Dorsalji 1
+cat__TedaviAdi_Dorsalji Boyun 1
+cat__TedaviAdi_Dorsalji+ radikülopati 
+cat__TedaviAdi_Dorsalji- Koksiks
+cat__TedaviAdi_Dorsalji-Bel
+cat__TedaviAdi_Dorsalji-Boyun sırt
+cat__TedaviAdi_Dorsalji-Dorsal
+cat__TedaviAdi_Dorsalji-Servikal 
+cat__TedaviAdi_Düşük ayak
+cat__TedaviAdi_DİZ PROTEZİ SONRASI TAM  YÜK
+cat__TedaviAdi_EL BİLEĞİ TENDİNİT+GANGLİON
+cat__TedaviAdi_Eklem ağrsıı
+cat__TedaviAdi_Eklem ağrısı
+cat__TedaviAdi_Eklem implant-Erken rehabilitasyon
+cat__TedaviAdi_Eklem implantı-Bilateral
+cat__TedaviAdi_Ekstansör tendon Rehabilitasyon 
+cat__TedaviAdi_El rehabilitasyonu
+cat__TedaviAdi_Epikondilit-1
+cat__TedaviAdi_Fasiyal Paralizi
+cat__TedaviAdi_Femur uzatma op
+cat__TedaviAdi_Fibula kırığı
+cat__TedaviAdi_Fleksör tendon yaralanması
+cat__TedaviAdi_Gonartroz
+cat__TedaviAdi_Gonartroz-Meniskopati
+cat__TedaviAdi_Gonartroz-Meniskopati + kalkaneal Spur
+cat__TedaviAdi_Hemartrotik Diz
+cat__TedaviAdi_Hemiparezi
+cat__TedaviAdi_Hemipleji
+cat__TedaviAdi_Humerus alt uş-Dirsek kırığı
+cat__TedaviAdi_KALÇA AĞRISI SAĞ
+cat__TedaviAdi_Kalkaneal Spur-1
+cat__TedaviAdi_Kalça ağrısı 
+cat__TedaviAdi_Kalça ağrısı +FAS
+cat__TedaviAdi_Kalça implant-Erken rehabilitasyon
+cat__TedaviAdi_Kalça labrum yırtığı opl
+cat__TedaviAdi_Kalça İmplantı-Erken rehabilitasyon
+cat__TedaviAdi_Kifoz
+cat__TedaviAdi_Koksartroz
+cat__TedaviAdi_Koksartroz 1
+cat__TedaviAdi_Koksartroz1
+cat__TedaviAdi_Koksartroz1-1
+cat__TedaviAdi_Kondromalazi patella
+cat__TedaviAdi_Kondromalezi patella+lateralizasyon
+cat__TedaviAdi_Kondromalezi patella-1
+cat__TedaviAdi_Lenfödem+ekstremite ağrısı
+cat__TedaviAdi_MENİSKÜS TAMİRİ 
+cat__TedaviAdi_Malleol kırığı-1
+cat__TedaviAdi_Mallet finger+ algonörodistrofi
+cat__TedaviAdi_Medial Palntar Sinir sıkışması
+cat__TedaviAdi_Menisektomi-Erken rehabilitasyon
+cat__TedaviAdi_Meniskopati Bursit
+cat__TedaviAdi_Meralgia Parestetika
+cat__TedaviAdi_Metatarsalji
+cat__TedaviAdi_Metkarp kırığı+ Kontraktür
+cat__TedaviAdi_Muscular strain
+cat__TedaviAdi_Muskuler strain
+cat__TedaviAdi_Myodascial ağrı
+cat__TedaviAdi_Omuz Post Op İzometrik
+cat__TedaviAdi_PTR
+cat__TedaviAdi_Paraparezi
+cat__TedaviAdi_Parapleji
+cat__TedaviAdi_Parapleji-Tetrapleji
+cat__TedaviAdi_Parmak kırığı
+cat__TedaviAdi_Parmak protezi
+cat__TedaviAdi_Patella Yerleşim Boz
+cat__TedaviAdi_Patella kırığı
+cat__TedaviAdi_Patellar gevşetme+quadriseps güçsüzlüğü
+cat__TedaviAdi_Pediatrik Rehabilitasyon Programı-1
+cat__TedaviAdi_Pelvik Taban Rehabilitasyonu
+cat__TedaviAdi_Pilates bel
+cat__TedaviAdi_Plantar Fasiit
+cat__TedaviAdi_Plantar fasiit Sağ-1
+cat__TedaviAdi_Postop Diz Artroskopi-Sağ
+cat__TedaviAdi_Postop Diz Artroskopi-Sol
+cat__TedaviAdi_Quadriseps Güçlendirme
+cat__TedaviAdi_Radikülopati
+cat__TedaviAdi_SAĞ OMUZ protezi+ el bileği kırığı
+cat__TedaviAdi_SAĞ OMUZ İMPİNGEMENT
+cat__TedaviAdi_SOL KALÇA İMPLANTI
+cat__TedaviAdi_SOL hEMİPLEJİ
+cat__TedaviAdi_Sağ  Hemiparezi
+cat__TedaviAdi_Sağ Diz Eklem İmplantı Reha
+cat__TedaviAdi_Sağ Kalça ve bacak kuvvetsizliği+ağrısı
+cat__TedaviAdi_Sağ ayak 1. parmak ravmatik yaralanması
+cat__TedaviAdi_Sağ düşük ayak
+cat__TedaviAdi_Sağ el bilek ağrıs
+cat__TedaviAdi_Sağ hemiparezi
+cat__TedaviAdi_Sağ hemiparezi+ Beyin Tm op lusu
+cat__TedaviAdi_Sağ medial epikondilit Muskuler strain
+cat__TedaviAdi_Sağ omuz adezif kapsülüt+tendinit
+cat__TedaviAdi_Sağ omuz impingement
+cat__TedaviAdi_Sağ omuz İmpingemen Post op
+cat__TedaviAdi_Sağ omuz İmpingement
+cat__TedaviAdi_Sağ servikal radikülopati
+cat__TedaviAdi_Sağ subtrokanterik kırık
+cat__TedaviAdi_Sağ+ sol humerus kırığı 
+cat__TedaviAdi_Serebral Palsi
+cat__TedaviAdi_Serebrovasküler olay
+cat__TedaviAdi_Servikal İV disk bozukluğu
+cat__TedaviAdi_Siyatalji
+cat__TedaviAdi_Skolyoz
+cat__TedaviAdi_Sol  omuz İmpingemen 
+cat__TedaviAdi_Sol  ÖÇB Rehabilitasyonu-1
+cat__TedaviAdi_Sol Diz Eklem İmplantı
+cat__TedaviAdi_Sol Kalça İmplantı Geç Rehabilitasyonu
+cat__TedaviAdi_Sol Lateral epikondilit
+cat__TedaviAdi_Sol Meralgia parestetika
+cat__TedaviAdi_Sol Omuz impingement
+cat__TedaviAdi_Sol Omuz İmpingement
+cat__TedaviAdi_Sol diz Post Op-Geç Dönme
+cat__TedaviAdi_Sol diz Pre Op
+cat__TedaviAdi_Sol diz implantı reh
+cat__TedaviAdi_Sol düşük ayak
+cat__TedaviAdi_Sol el artroplastisi
+cat__TedaviAdi_Sol hemipleji Yatakta
+cat__TedaviAdi_Sol omuz İmpingemen Post op
+cat__TedaviAdi_Sol omuz İmpingement
+cat__TedaviAdi_Sol omuz İmpingement+ CMC artroz
+cat__TedaviAdi_Sol omuz İmpingement+ servikal traksiyon injurisi
+cat__TedaviAdi_Spinal manüpilasyon
+cat__TedaviAdi_Spondilolistezis
+cat__TedaviAdi_TFCC rehabilitasyonu
+cat__TedaviAdi_TME bozukluğu
+cat__TedaviAdi_Tendinit-tenosinovit-1
+cat__TedaviAdi_Tetik parmak Op lusu
+cat__TedaviAdi_Triseps tendiniti-1
+cat__TedaviAdi_Volar plak reh
+cat__TedaviAdi_Yaygın kuvvetsizlik
+cat__TedaviAdi_Yürüme
+cat__TedaviAdi_Yürüme eğitimi
+cat__TedaviAdi_impingement Sol
+cat__TedaviAdi_impingement sağ
+cat__TedaviAdi_onur
+cat__TedaviAdi_servikal Disk Hernisi
+cat__TedaviAdi_Çapraz bağ lezyonu
+cat__TedaviAdi_Ön çapraz bağ rehabilitasyonu
+cat__TedaviAdi_ÖÇB
+cat__TedaviAdi_İV Disk Boyun
+cat__TedaviAdi_İV DİSK BOZUKLUĞU-BEL
+cat__TedaviAdi_İV DİSK BOZUKLUĞU-BEL-1
+cat__TedaviAdi_İmpingement Sağ
+cat__TedaviAdi_İmpingement op izometrik
+mlb__mlb__KronikHastalik__aritmi
+mlb__mlb__KronikHastalik__astim
+mlb__mlb__KronikHastalik__becker_muskuler_distrofisi
+mlb__mlb__KronikHastalik__diyabet
+mlb__mlb__KronikHastalik__duchenne_muskuler_distrofisi
+mlb__mlb__KronikHastalik__fascioscapulohumeral_distrofi
+mlb__mlb__KronikHastalik__guatr
+mlb__mlb__KronikHastalik__hipertansiyon
+mlb__mlb__KronikHastalik__hipertiroidizm
+mlb__mlb__KronikHastalik__hiportiroidizm
+mlb__mlb__KronikHastalik__hipotirodizm
+mlb__mlb__KronikHastalik__kalp_yetmezligi
+mlb__mlb__KronikHastalik__limb_girdle_muskuler_distrofi
+mlb__mlb__KronikHastalik__myastenia_gravis
+mlb__mlb__KronikHastalik__polimiyozit
+mlb__mlb__Alerji__arveles
+mlb__mlb__Alerji__coraspin
+mlb__mlb__Alerji__gripin
+mlb__mlb__Alerji__novalgin
+mlb__mlb__Alerji__polen
+mlb__mlb__Alerji__sucuk
+mlb__mlb__Alerji__toz
+mlb__mlb__Alerji__voltaren
+mlb__mlb__Alerji__volteren
+mlb__mlb__Alerji__yer_fistigi
+mlb__mlb__UygulamaYerleri__ayak_bilegi
+mlb__mlb__UygulamaYerleri__bel
+mlb__mlb__UygulamaYerleri__boyun
+mlb__mlb__UygulamaYerleri__diz
+mlb__mlb__UygulamaYerleri__el_bilek
+mlb__mlb__UygulamaYerleri__kalca
+mlb__mlb__UygulamaYerleri__omuz
+mlb__mlb__UygulamaYerleri__sag_ayak_bilegi_bolgesi
+mlb__mlb__UygulamaYerleri__sag_dirsek_bolgesi
+mlb__mlb__UygulamaYerleri__sag_diz_bolgesi
+mlb__mlb__UygulamaYerleri__sag_el_bilek_bolgesi
+mlb__mlb__UygulamaYerleri__sag_kalca_bolgesi
+mlb__mlb__UygulamaYerleri__sag_omuz_bolgesi
+mlb__mlb__UygulamaYerleri__sirt
+mlb__mlb__UygulamaYerleri__sol_ayak_bilegi_bolgesi
+mlb__mlb__UygulamaYerleri__sol_dirsek_bolgesi
+mlb__mlb__UygulamaYerleri__sol_diz_bolgesi
+mlb__mlb__UygulamaYerleri__sol_el_bilek_bolgesi
+mlb__mlb__UygulamaYerleri__sol_kalca_bolgesi
+mlb__mlb__UygulamaYerleri__sol_omuz_bolgesi
+mlb__mlb__UygulamaYerleri__tum_vucut_bolgesi
+mlb__mlb__UygulamaYerleri__yuz

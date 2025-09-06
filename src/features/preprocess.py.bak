@@ -1,0 +1,104 @@
+# Preprocess to model-ready dataset (English comments)
+from __future__ import annotations
+import pandas as pd
+import numpy as np
+from pathlib import Path
+from joblib import dump
+from sklearn.impute import SimpleImputer
+from sklearn.preprocessing import OneHotEncoder, StandardScaler
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+
+from src.features.transformers import MultiLabelBinarizerDF
+
+IN_PARQ = Path("data/interim/01_numeric.parquet")
+OUT_PARQ = Path("data/processed/dataset_model_ready.parquet")
+OUT_CSV  = Path("data/processed/dataset_model_ready.csv")
+MODEL_PATH = Path("models/preprocess_pipeline.joblib")
+FEATURES_TXT = Path("reports/feature_names.txt")
+
+ID_COL = "HastaNo"
+TARGET = "TedaviSuresi_num"
+
+# Numeric, categorical, and multi-label columns
+NUMERIC_COLS = ["Yas", "UygulamaSuresi_min"]
+CATEG_COLS   = ["Cinsiyet","KanGrubu","Uyruk","Bolum","Tanilar","TedaviAdi"]
+MULTILABEL_COLS = ["KronikHastalik","Alerji","UygulamaYerleri"]
+
+def main():
+    # Load input
+    df = pd.read_parquet(IN_PARQ)
+
+    # Deduplicate: full-row dups, then by ID
+    before = len(df)
+    df = df.drop_duplicates()
+    df = df.drop_duplicates(subset=[ID_COL], keep="first")
+    after = len(df)
+    print(f"Dedup: {before} -> {after} rows")
+
+    # Split X/y
+    X = df[NUMERIC_COLS + CATEG_COLS + MULTILABEL_COLS]
+    y = df[TARGET].astype(float)
+
+    # Define sub-pipelines
+    numeric_pipe = Pipeline([
+        ("imputer", SimpleImputer(strategy="median")),
+        ("scaler", StandardScaler()),
+    ])
+    categorical_pipe = Pipeline([
+        ("imputer", SimpleImputer(strategy="most_frequent")),
+        ("ohe", OneHotEncoder(handle_unknown="ignore", sparse=True)),
+    ])
+    multilabel_tx = MultiLabelBinarizerDF(columns=MULTILABEL_COLS)
+
+    # ColumnTransformer with dedicated 'mlb' branch
+    ct = ColumnTransformer(
+        transformers=[
+            ("num", numeric_pipe, NUMERIC_COLS),
+            ("cat", categorical_pipe, CATEG_COLS),
+            ("mlb", multilabel_tx, MULTILABEL_COLS),
+        ],
+        sparse_threshold=0.3,
+        remainder="drop",
+        verbose_feature_names_out=False,
+    )
+
+    # Fit-transform
+    Xt = ct.fit_transform(X)
+    feat_names = list(ct.get_feature_names_out())
+    print("Transformers in pipeline:", [n for n,_,_ in ct.transformers])
+    print("Total feature count (pipeline):", len(feat_names))
+    print("First 8 features:", feat_names[:8])
+
+    # Materialize to dense DataFrame for saving
+    arr = Xt.toarray() if hasattr(Xt, "toarray") else Xt
+    Xdf = pd.DataFrame(arr, columns=feat_names, index=df.index)
+
+    # Final dataset: ID + TARGET + features
+    final_df = pd.concat(
+        [df[[ID_COL]].reset_index(drop=True),
+         y.reset_index(drop=True),
+         Xdf.reset_index(drop=True)],
+        axis=1
+    )
+
+    # Save artifacts
+    OUT_PARQ.parent.mkdir(parents=True, exist_ok=True)
+    OUT_CSV.parent.mkdir(parents=True, exist_ok=True)
+    MODEL_PATH.parent.mkdir(parents=True, exist_ok=True)
+    FEATURES_TXT.parent.mkdir(parents=True, exist_ok=True)
+
+    final_df.to_parquet(OUT_PARQ, index=False)
+    final_df.to_csv(OUT_CSV, index=False)
+    dump(ct, MODEL_PATH)
+    FEATURES_TXT.write_text("\n".join(feat_names), encoding="utf-8")
+
+    print("✅ Preprocessing completed")
+    print(f"Rows (after dedup): {len(final_df)}")
+    print(f"Features (X) count: {len(feat_names)}")
+    print(f"Saved: {OUT_PARQ} and {OUT_CSV}")
+    print(f"Pipeline: {MODEL_PATH}")
+    print(f"Feature names: {FEATURES_TXT}")
+
+if __name__ == "__main__":
+    main()
